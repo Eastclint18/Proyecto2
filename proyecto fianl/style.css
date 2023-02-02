@@ -8,7 +8,7 @@ section{
 body{
     background-color: #383E42 ;
 }
-div{
+.peli{
     width: 200px;
     height:300px;
     border:solid 2px aliceblue;
@@ -23,13 +23,13 @@ img{
     border-radius: 20px;
     opacity: 0.7;
 }
-div:hover{
+/* div:hover{
     height:305px;
     width: 205px;
 
     
 
-}
+} */
 img:hover{
     opacity: 1;
     
@@ -65,3 +65,42 @@ p{
     font-family:Arial, Helvetica, sans-serif;
     color:white;
 } */
+
+.favoritos { 
+    background-color: black;
+    width:300px;
+    height:500px;
+    position: relative;
+    display : none;
+    
+    
+
+}
+
+.favoritos:hover { 
+    width:300px;
+    height:500px;
+}
+
+#corazon { 
+    background-color: transparent;
+    border: 20px;
+    color: grey;
+    font-size: 2em;
+
+    
+}
+
+.ver { 
+    background: transparent;
+    border: 20px ; 
+    border-color : white;
+    color : white ; 
+    font-size 2em ; 
+    position: relative ; 
+    margin-top: 60px;
+    margin-left: 1500px;
+}
+.rojo { 
+    color:red;
+}

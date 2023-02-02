@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+    
+   
+    <link rel="styleSheet" href="style.css">
+    <div class="head">
+    <div class="encabezado" >
+    
+  
+    <button type = 'button' id="ver" >  Favoritos </button>
+    
+    <input type="text" name="buscador" id="buscador" placeholder="   NOMBRE">
+    <select name="pagina" id="pagina" onchange="apiRick(this.value)">
+        <script>
+            for(let i=1; i <=42; i++) {
+                document.write(`<option value="${i}">${i}</option>`);
+                }
+        </script>
+    
+    </select>    
+    
+</div>
+</div> 
+</head>
+
+<body>
+   
+    <div id="favoritos-contenedor" class="contenedorfav"></div>
+    <main id ='resultado'>
+
+    </main>
+    <script src="script.js"></script>   
+</body>
+</html>
